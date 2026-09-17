@@ -59,7 +59,7 @@ export default function Impact() {
         <SectionHead
           eyebrow="The work in practice"
           title="Where the figures were earned"
-          lead="Facilities, ministries, conferences and county governments — the engagements the ledger counts."
+          lead="Global level, Ministries of Health, County governments, Health facilities, Conferences, Global and National technical working groups, and Communities of practice."
         />
         <div className="mt-14 md:mt-16">
           <PhotoCarousel photos={FIELD_WORK} eyebrow="From the field" />
@@ -70,7 +70,7 @@ export default function Impact() {
         <SectionHead
           tone="light"
           eyebrow="From scale to systems change"
-          title="Four accounts of what changed"
+          title="Accounts of what changed"
           lead="Named for what changed, not for the project that funded it."
         />
 

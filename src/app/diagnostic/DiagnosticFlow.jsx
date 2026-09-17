@@ -201,6 +201,7 @@ export default function DiagnosticFlow() {
           eyebrow={`${DIAGNOSTIC.name} · Free · Five to ten minutes`}
           title="Where is fragmentation holding your health system back?"
           lead="Score ten domains of integration on a four-point maturity scale and receive a gap analysis with your three priority domains and a practical 90-day plan."
+          intro="The diagnostics helps policy makers, governments, UN agencies, and donor programmes assess the degree to which WASH and infection prevention and control are integrated into the health system, or remain fragmented across donor-driven, siloed programmes."
         />
       )}
 

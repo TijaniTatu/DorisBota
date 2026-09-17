@@ -41,7 +41,8 @@ export const LEDGER = [
   {
     figure: '216',
     unit: 'Facilities',
-    label: 'Healthcare facilities strengthened across 44 counties.',
+    label:
+      'Health facilities strengthened on biosafety and biosecurity across 44 counties.',
     group: 'Delivery',
   },
   {
@@ -62,7 +63,7 @@ export const LEDGER = [
 ];
 
 /**
- * Four accounts of systems change, each named for what changed rather than
+ * Accounts of systems change, each named for what changed rather than
  * for the project that funded it.
  */
 export const SYSTEMS_CHANGE = [
@@ -81,5 +82,9 @@ export const SYSTEMS_CHANGE = [
   {
     heading: 'Evidence and leadership recognised',
     body: 'Recognised internationally with the IFBA Biosafety Hero Award, and published peer-reviewed evidence on strengthening biosafety, laboratory systems, and health security.',
+  },
+  {
+    heading: 'Biosafety and biosecurity taken to scale',
+    body: 'Five sensitisation meetings reached 264 health managers, while 48 trainers and 1,044 laboratory workers were trained across 216 facilities in 44 counties. Site visits were conducted in 51 facilities, with biosafety achievements assessed in 21. These included improvements in eye wash stations, spill kits, waste segregation, incident documentation, hepatitis B vaccination, and designated phlebotomy areas. The model enabled rapid scale-up, strengthened understanding of biosafety, and translated management buy-in into practical improvements at facility level.',
   },
 ];

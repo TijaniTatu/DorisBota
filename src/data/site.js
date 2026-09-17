@@ -49,12 +49,32 @@ export const DIAGNOSTIC = {
   to: '/diagnostic',
 };
 
+/**
+ * The framework and the wheel sit on /expertise rather than on pages of their
+ * own, so the nav links to their anchors. Both carry short names for the same
+ * reason the diagnostic does: the formal names are seven and eight words long
+ * and the bar cannot hold them.
+ */
+export const FRAMEWORK = {
+  name: 'The Integrated Health Systems Transformation Framework',
+  short: 'Framework',
+  to: '/expertise#framework',
+};
+
+export const WHEEL = {
+  name: 'The WASH and IPC Health Systems Wheel',
+  short: 'IPC/WASH Wheel',
+  to: '/expertise#wheel',
+};
+
 export const NAV = [
   { label: 'About', to: '/about' },
   { label: 'Expertise', to: '/expertise' },
   { label: 'Impact', to: '/impact' },
   { label: 'Insights', to: '/insights' },
   { label: DIAGNOSTIC.short, to: DIAGNOSTIC.to },
+  { label: FRAMEWORK.short, to: FRAMEWORK.to },
+  { label: WHEEL.short, to: WHEEL.to },
 ];
 
 export const CLIENT_TYPES = [

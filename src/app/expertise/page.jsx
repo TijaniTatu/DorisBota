@@ -43,7 +43,7 @@ export const metadata = {
   alternates: { canonical: '/expertise' },
   openGraph: og('/expertise'),
   title: "Expertise",
-  description: "Health systems strategy and governance, WASH–IPC integration, laboratory systems and integrated diagnostics, and multi-sectoral policy influence — and how engagements are structured.",
+  description: "Health systems strategy and governance, WASH–IPC integration, laboratory systems and biosafety, and multi-sectoral policy influence — and how engagements are structured.",
 };
 
 export default function Expertise() {
@@ -79,7 +79,7 @@ export default function Expertise() {
         </FadeIn>
       </Section>
 
-      <Section ground="deep">
+      <Section ground="deep" id="framework">
         <SectionHead
           tone="light"
           eyebrow="The methodology"

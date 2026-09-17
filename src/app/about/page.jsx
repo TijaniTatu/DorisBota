@@ -25,7 +25,7 @@ export default function About() {
 
       <PageHeader
         eyebrow="About"
-        title="The work is making the global health and health security functions survive the project."
+        title="The work is making the global health and health security functions survive beyond the donor funded project."
         lead="Eighteen years of strategic and technical leadership across health systems in Africa, Europe, Central Asia and South Asia."
       />
 

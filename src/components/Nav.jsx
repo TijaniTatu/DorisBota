@@ -47,16 +47,16 @@ export default function Nav() {
             <span className="font-display text-2xl font-normal tracking-tight text-deep">
               {PROFILE.name}
             </span>
-            {/* The standfirst needs 441px and the desktop bar only frees up
-                ~390px for it between 1024 and 1150, where it wraps to two
-                lines and pushes the bar out of square. Below lg the menu is
-                a hamburger and there is room; from xl there is room again. */}
-            <span className="eyebrow mt-1 block text-[0.625rem] text-deep/70 lg:hidden xl:block">
+            {/* The standfirst needs 441px. With seven links in the bar the
+                measured desktop row already wants 1064px of the 1152px the
+                container ever gives, so the standfirst only appears on the
+                compact bar, where the hamburger leaves room for it. */}
+            <span className="eyebrow mt-1 block text-[0.625rem] text-deep/70 xl:hidden">
               Independent consultant · {PROFILE.base} · Working globally
             </span>
           </Link>
 
-          <ul className="hidden list-none items-center gap-8 lg:flex">
+          <ul className="hidden list-none items-center gap-6 xl:flex">
             {NAV.map((link) => (
               <li key={link.to}>
                 <Link
@@ -72,14 +72,14 @@ export default function Nav() {
 
           <Link
             href="/contact"
-            className="hidden bg-gold px-5 py-3 text-sm font-medium text-deep transition-colors duration-300 hover:bg-deep hover:text-white lg:inline-flex"
+            className="hidden bg-gold px-5 py-3 text-sm font-medium text-deep transition-colors duration-300 hover:bg-deep hover:text-white xl:inline-flex"
           >
             Start a scoping conversation
           </Link>
 
           <button
             type="button"
-            className="-mr-2 p-2 text-deep lg:hidden"
+            className="-mr-2 p-2 text-deep xl:hidden"
             onClick={() => setOpen((v) => !v)}
             aria-label={open ? 'Close menu' : 'Open menu'}
             aria-expanded={open}
@@ -90,7 +90,7 @@ export default function Nav() {
       </Container>
 
       {open && (
-        <div className="border-t border-ink/10 bg-white lg:hidden">
+        <div className="border-t border-ink/10 bg-white xl:hidden">
           <Container className="py-8">
             <ul className="list-none space-y-5 p-0">
               {NAV.map((link) => (

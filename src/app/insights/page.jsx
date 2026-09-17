@@ -139,13 +139,23 @@ export default function Insights() {
         <Seam integrated tone="gold" height={2} className="mb-14" />
         <div className="grid gap-10 md:grid-cols-12">
           <div className="md:col-span-7">
-            <Eyebrow tone="gold">Speaking and advisory</Eyebrow>
+            <Eyebrow tone="gold">Speaking, advisory and governance</Eyebrow>
+            {/* The full list runs to forty words, which is body copy rather
+                than a headline — the heading takes the first commitment and
+                the rest follows at reading size. */}
             <h2 className="mt-6 font-display text-title font-normal text-white">
-              Available for panels, technical working groups and expert review.
+              Open to board and advisory positions.
             </h2>
             <p className="mt-7 max-w-xl text-lg leading-relaxed text-white/70">
-              On health system fragmentation, WASH–IPC integration, laboratory systems and
-              biosafety governance, and translating implementation evidence into policy.
+              Speaking engagements, panels, technical facilitation and working groups,
+              steering committees, programme advisory roles, expert review and
+              strategic consultations.
+            </p>
+            <p className="mt-5 max-w-xl text-base leading-relaxed text-white/60">
+              On health systems transformation and fragmentation, WASH–IPC integration,
+              patient safety and quality of care, laboratory systems, biosafety and
+              biosecurity, health security, governance and institutionalisation, and
+              translating implementation evidence into policy and sustainable systems.
             </p>
             <div className="mt-10">
               <ButtonLink href="/contact" variant="gold">

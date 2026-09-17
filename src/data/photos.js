@@ -37,7 +37,7 @@ export const FIELD_WORK = [
     height: 853,
     place: 'Laikipia County, Kenya',
     caption:
-      'Discussions on establishing the sub-national WASH caucus, with H.E. Governor Joash Irungu and the CECM for Health, Hon. Albert Taiti.',
+      'Discussions on establishing the sub-national WASH caucus, with H.E. Joshua Wakahora Irungu, EGH, County Executive Committee Member (CECM) for Health, Hon. Albert Wagura Taiti, County IPC and Laboratory Coordinator Mr. Lawrence Wammiti, and the county executive.',
     alt: 'A document being handed over during a meeting, flanked by national and county flags.',
   },
   {

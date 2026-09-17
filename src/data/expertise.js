@@ -32,7 +32,7 @@ export const PRACTICE_AREAS = [
   {
     slug: 'laboratory',
     icon: FlaskConical,
-    title: 'Laboratory systems and integrated diagnostics',
+    title: 'Laboratory systems and biosafety',
     description:
       'Strengthening diagnostic networks, point-of-care testing, specimen referral, surveillance linkages, quality management, biosafety, and biosecurity across levels of care.',
     detail: [
