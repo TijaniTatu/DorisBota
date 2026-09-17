@@ -6,10 +6,11 @@ import Seam from '@/components/Seam';
 import { Section, Eyebrow } from '@/components/ui';
 import { PROFILE, CLIENT_TYPES } from '@/data/site';
 import ContactForm from './ContactForm';
+import { og } from '@/lib/metadata';
 
 export const metadata = {
   alternates: { canonical: '/contact' },
-  openGraph: { url: '/contact' },
+  openGraph: og('/contact'),
   title: 'Contact',
   description:
     'Start a scoping conversation with Doris Bota. Available for assignments with governments, UN agencies, development partners and implementing organizations. Registered on UNGM.',

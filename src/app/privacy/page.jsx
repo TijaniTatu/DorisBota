@@ -2,10 +2,11 @@ import PageHeader from '@/components/PageHeader';
 import FadeIn from '@/components/FadeIn';
 import { Container, Eyebrow } from '@/components/ui';
 import { SECTIONS, INTRO, VERSION, ISSUED, NEXT_REVIEW } from '@/data/privacy';
+import { og } from '@/lib/metadata';
 
 export const metadata = {
   alternates: { canonical: '/privacy' },
-  openGraph: { url: '/privacy' },
+  openGraph: og('/privacy'),
   title: "Privacy Notice",
   description: "How information provided through the Health Systems Fragmentation Diagnostic and the contact form is collected, used, stored and protected.",
 };

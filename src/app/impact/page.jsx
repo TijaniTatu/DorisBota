@@ -8,13 +8,14 @@ import { Section, SectionHead, Eyebrow, ButtonLink, TextLink } from '@/component
 import { LEDGER, SYSTEMS_CHANGE } from '@/data/impact';
 import { FIELD_WORK } from '@/data/photos';
 import { SCOPE } from '@/data/expertise';
+import { og } from '@/lib/metadata';
 
 const REACH = LEDGER.filter((row) => row.group === 'Reach');
 const DELIVERY = LEDGER.filter((row) => row.group === 'Delivery');
 
 export const metadata = {
   alternates: { canonical: '/impact' },
-  openGraph: { url: '/impact' },
+  openGraph: og('/impact'),
   title: "Impact",
   description: "A record of eighteen years of health systems work: 1,044 laboratory professionals trained, 216 facilities strengthened across 44 counties, 21 laboratories supported toward ISO accreditation, 22 countries supported.",
 };

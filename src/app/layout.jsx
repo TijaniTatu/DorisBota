@@ -3,6 +3,7 @@ import { IBM_Plex_Mono, IBM_Plex_Sans, Spectral } from 'next/font/google';
 import Nav from '@/components/Nav';
 import Footer from '@/components/Footer';
 import { SITE_URL, PROFILE } from '@/data/site';
+import { OG_IMAGE } from '@/lib/metadata';
 import './globals.css';
 
 /* Self-hosted by Next, so there is no render-blocking request to Google and no
@@ -45,11 +46,11 @@ export const metadata = {
     type: 'website',
     siteName: PROFILE.name,
     locale: 'en_GB',
-    images: [{ url: '/og-image.png', width: 1200, height: 630, alt: PROFILE.name }],
+    images: [OG_IMAGE],
   },
   twitter: {
     card: 'summary_large_image',
-    images: ['/og-image.png'],
+    images: [OG_IMAGE.url],
   },
   icons: {
     icon: '/favicon.svg',

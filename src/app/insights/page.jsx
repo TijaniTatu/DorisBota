@@ -8,6 +8,7 @@ import Image from 'next/image';
 import { PUBLICATIONS, RECOGNITION, POSITIONS } from '@/data/insights';
 import { PUBLICATION_CARD } from '@/data/photos';
 import { PROFILE } from '@/data/site';
+import { og } from '@/lib/metadata';
 
 function RecordRow({ item }) {
   return (
@@ -34,7 +35,7 @@ function RecordRow({ item }) {
 
 export const metadata = {
   alternates: { canonical: '/insights' },
-  openGraph: { url: '/insights' },
+  openGraph: og('/insights'),
   title: "Insights and Publications",
   description: "Peer-reviewed evidence, international recognition, and written positions on health system fragmentation, WASH–IPC integration and laboratory diagnostics.",
 };

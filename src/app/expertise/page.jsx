@@ -11,6 +11,7 @@ import { PILLARS, CROSS_CUTTING, TIERS, TIERS_NOTE } from '@/data/framework';
 import { WHEEL, WHEEL_IMPACT, WHEEL_BAND } from '@/data/wheel';
 import { PROFILE } from '@/data/site';
 import ihstfLogo from '@/../public/ihstf-logo.png';
+import { og } from '@/lib/metadata';
 
 function PracticeArea({ area, index }) {
   return (
@@ -40,7 +41,7 @@ function PracticeArea({ area, index }) {
 
 export const metadata = {
   alternates: { canonical: '/expertise' },
-  openGraph: { url: '/expertise' },
+  openGraph: og('/expertise'),
   title: "Expertise",
   description: "Health systems strategy and governance, WASH–IPC integration, laboratory systems and integrated diagnostics, and multi-sectoral policy influence — and how engagements are structured.",
 };

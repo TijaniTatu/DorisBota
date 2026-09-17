@@ -10,10 +10,11 @@ import { BIO, AFFILIATIONS, AVAILABILITY } from '@/data/about';
 import { RECOGNITION, PUBLICATIONS } from '@/data/insights';
 import { SCOPE } from '@/data/expertise';
 import portrait from '@/../public/doris-portrait.jpg';
+import { og } from '@/lib/metadata';
 
 export const metadata = {
   alternates: { canonical: '/about' },
-  openGraph: { url: '/about' },
+  openGraph: og('/about'),
   title: "About",
   description: "Doris Bota is a global health systems specialist working where infection prevention, WASH in health care facilities, laboratory diagnostics and health security meet the machinery of government.",
 };

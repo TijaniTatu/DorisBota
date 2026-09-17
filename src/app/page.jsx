@@ -13,6 +13,7 @@ import { PILLARS, CROSS_CUTTING } from '@/data/framework';
 import { WHEEL_DOMAINS } from '@/data/wheel';
 import { PRACTICE_AREAS } from '@/data/expertise';
 import { LEDGER } from '@/data/impact';
+import { og } from '@/lib/metadata';
 
 
 function Thesis() {
@@ -300,7 +301,7 @@ function ClosingCta() {
 
 export const metadata = {
   alternates: { canonical: '/' },
-  openGraph: { url: '/' },
+  openGraph: og('/'),
   title: {
     absolute:
       "Doris Bota — Health Systems Strengthening, WASH–IPC and Laboratory Systems",
